@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>商品列表</title></head>
+<body>
+    <h1>所有商品</h1>
+    {% for product in products %}
+        <div>
+            <h2>{{ product.name }}</h2>
+            <p>價格：{{ product.price }} 元</p>
+            <p>庫存：{{ product.stock }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
