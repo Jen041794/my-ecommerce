@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/my-ecommerce/static/js/main.176bedbe.js",
+    "main.js": "/my-ecommerce/static/js/main.b2c080c4.js",
     "index.html": "/my-ecommerce/index.html",
-    "main.176bedbe.js.map": "/my-ecommerce/static/js/main.176bedbe.js.map"
+    "main.b2c080c4.js.map": "/my-ecommerce/static/js/main.b2c080c4.js.map"
   },
   "entrypoints": [
-    "static/js/main.176bedbe.js"
+    "static/js/main.b2c080c4.js"
   ]
 }
