@@ -30,6 +30,10 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 #ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://my-ecommerce-production-7da4.up.railway.app',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
