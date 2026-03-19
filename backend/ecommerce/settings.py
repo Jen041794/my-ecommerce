@@ -148,5 +148,6 @@ REST_FRAMEWORK = {
     ],
 }
 
+# CSRF and static files configuration
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
