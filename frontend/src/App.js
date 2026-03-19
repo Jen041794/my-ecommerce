@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProductList from './pages/ProductList';
 import ProductDetail from './pages/ProductDetail';
@@ -6,7 +6,7 @@ import Cart from './pages/Cart';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={{ background: '#f5f5f5', minHeight: '100vh' }}>
         <Navbar />
         <Routes>
@@ -15,7 +15,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
