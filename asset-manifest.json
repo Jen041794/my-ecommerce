@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.176bedbe.js",
-    "index.html": "/index.html",
-    "main.176bedbe.js.map": "/static/js/main.176bedbe.js.map"
+    "main.js": "/my-ecommerce/static/js/main.176bedbe.js",
+    "index.html": "/my-ecommerce/index.html",
+    "main.176bedbe.js.map": "/my-ecommerce/static/js/main.176bedbe.js.map"
   },
   "entrypoints": [
     "static/js/main.176bedbe.js"
